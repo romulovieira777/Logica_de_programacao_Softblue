@@ -1,0 +1,16 @@
+início {   
+   caractere: nome;
+   inteiro: idade;
+   real: altura;
+   
+   // nome = "Felicity Smoke"; 
+   leia("Digite seu nome: ", nome);
+   
+   // idade = 30;
+   leia("Digite sua idade: ", idade);
+   
+   // altura = 1.8;
+   leia("Digite sua altura: ", altura);
+   
+   escreva(nome + ", " + idade + ", " + altura);
+}
