@@ -1,0 +1,11 @@
+início {
+    
+    inteiro: r_01;
+    real: r_02;
+    
+    r_01 = rad(2);
+    r_02 = pot(2.0, 5);
+    
+    escreva(5);
+    escreva(r_02);     
+}

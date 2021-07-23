@@ -1,0 +1,10 @@
+início {
+    real: tf;
+    real: tc;
+    
+    leia(tf);
+    
+    tc = ((tf - 32) / 9) * 5;
+    
+    escreva(tc);
+}
