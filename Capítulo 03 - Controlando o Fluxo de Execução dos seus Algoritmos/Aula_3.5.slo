@@ -1,0 +1,16 @@
+início {
+    // Sequência de Fibonacci
+    
+    inteiro: n;
+    inteiro: i;
+    inteiro: j;
+    
+    i = 0;
+    j = 1;
+    
+    para n de 1 até 10 passo 1 {       
+        escreva(i);
+        i = i + j;
+        j = i - j;
+    }    
+}
