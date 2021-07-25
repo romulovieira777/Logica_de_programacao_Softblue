@@ -1,0 +1,28 @@
+início {
+  inteiro: s[3];
+  inteiro: m;
+  
+  s[0] = 4;
+  s[1] = 9;
+  s[2] = 2;
+ 
+  m = encontrar_maior(s);
+  
+  escreva("O maior valor é " + m);   
+    
+}
+
+função encontrar_maior(inteiro: v[3]) -> inteiro {
+    inteiro: maior;
+    inteiro: n;
+    
+    maior = v[0];
+    
+    para n de 1 até 2 passo 1 {
+        se (v[n] > maior) {
+            maior = v[n];
+        }
+    }
+    
+    retorne maior;
+}
