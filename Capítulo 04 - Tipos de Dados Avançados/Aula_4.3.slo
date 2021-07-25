@@ -1,0 +1,33 @@
+tipo nome {
+    caractere: primeiro_nome;
+    caractere: sobrenome;
+}
+
+tipo conta {
+    inteiro: numero;
+    nome: titular;
+    real: saldo;
+}
+
+início {
+    conta: contas[2];
+    
+    nome: n_01;
+    n_01.primeiro_nome = "Felicity";
+    n_01.sobrenome = "Smoke";
+    
+    contas[0].numero = 123;
+    contas[0].titular = n_01;
+    contas[0].saldo = 1000;    
+     
+    nome: n_02;
+    n_02.primeiro_nome = "Oliver";
+    n_02.sobrenome = "Quen";
+    
+    contas[1].numero = 321;
+    contas[1].titular = n_02;
+    contas[1].saldo = 2000;
+    
+    escreva(contas);
+    escreva(contas[1].numero);    
+}
